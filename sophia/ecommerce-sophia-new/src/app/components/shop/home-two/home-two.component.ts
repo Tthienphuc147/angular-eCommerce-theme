@@ -24,11 +24,11 @@ export class HomeTwoComponent implements OnInit {
   public newArrivalsProducts: Array<Product>;
 
   public slides = [
-    { title: 'Huge sale', subtitle: 'Up to 70%', image: 'assets/images/carousel/banner1.jpg' },
-    { title: 'Biggest discount', subtitle: 'Check the promotion', image: 'assets/images/carousel/banner2.jpg' },
-    { title: 'Biggest sale', subtitle: 'Dont miss it', image: 'assets/images/carousel/banner3.jpg' },
-    { title: 'Our best products', subtitle: 'Special selection', image: 'assets/images/carousel/banner4.jpg' },
-    { title: 'Massive sale', subtitle: 'Only for today', image: 'assets/images/carousel/banner5.jpg' }
+    { title: 'Huge sale', subtitle: 'Up to 70%', image: 'https://cdn.cellphones.com.vn/media/ltsoft/promotion/TAB_S6_Lite_V2-01.png' },
+    { title: 'Biggest discount', subtitle: 'Check the promotion', image: 'https://cdn.cellphones.com.vn/media/ltsoft/promotion/realme-6i.html_.jpg' },
+    { title: 'Biggest sale', subtitle: 'Dont miss it', image: 'https://cdn.cellphones.com.vn/media/ltsoft/promotion/a12_4.5.png' },
+    { title: 'Our best products', subtitle: 'Special selection', image: 'https://cdn.cellphones.com.vn/media/ltsoft/promotion/se_2020_4.5.jpg' },
+    { title: 'Massive sale', subtitle: 'Only for today', image: 'https://cdn.cellphones.com.vn/media/ltsoft/promotion/Huawei_P40_Preorder_800x300-01-compressed.jpg' }
   ];
 
   constructor(private productService: ProductService, private cartService: CartService) { }

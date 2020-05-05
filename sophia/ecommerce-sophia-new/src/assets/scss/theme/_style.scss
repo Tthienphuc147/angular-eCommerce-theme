@@ -1872,6 +1872,7 @@ line-height: 23px;
 .menu-container1 {
   background: $grey9;
    a.mat-button {
+     color:#fff !important;
      text-transform: uppercase;
      color: $theme-main-dark;
     font-size: 1em;
@@ -1905,6 +1906,7 @@ line-height: 23px;
   .menu-container2 {
     background: $theme-main;
      a.mat-button {
+      color:#fff !important;
        text-transform: uppercase;
        color: $font-color;
       font-size: 1em;
@@ -2271,6 +2273,7 @@ line-height: 23px;
         background: #ffffff;
         .flex-row-button {
           .mat-button-wrapper {
+            color:#fff !important;
             display: flex;
           flex-direction: row;
           align-items: center;
@@ -2306,8 +2309,9 @@ line-height: 23px;
   .main-menu {
     margin: 0 auto;
     a.mat-button {
+      color:#fff !important;
       text-transform: uppercase;
-      color: #383838;
+      color: #fff;
       font-size: 1em;
       font-weight: 700;
       padding: 0 25px;
@@ -2675,6 +2679,7 @@ line-height: 23px;
     .container {
       background: $grey9;
       a.mat-button {
+        color:#fff !important;
         text-transform: uppercase;
         color: $font-color;
        font-size: 1em;
